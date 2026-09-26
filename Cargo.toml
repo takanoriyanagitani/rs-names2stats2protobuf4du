@@ -3,6 +3,13 @@ name = "rs-names2stats2protobuf4du"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert file names to disk usage stats in protobuf format"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-names2stats2protobuf4du"
+homepage = "https://github.com/takanoriyanagitani/rs-names2stats2protobuf4du"
+documentation = "https://docs.rs/rs-names2stats2protobuf4du"
+keywords = ["disk", "usage", "stat", "metadata", "filesystem"]
+
 exclude = [
 ]
 
