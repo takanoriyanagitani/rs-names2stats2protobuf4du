@@ -1,0 +1,24 @@
+[package]
+name = "rs-names2stats2protobuf4du"
+version = "0.1.0"
+edition = "2024"
+
+exclude = [
+]
+
+[[bin]]
+name = "names2stats2protobuf4du"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+unwrap_used = "forbid"
+expect_used = "forbid"
+panic = "forbid"
+
+[dependencies.protobuf]
+version = "3.7.2"
+default-features = false
+features = [
+]
